@@ -7,14 +7,17 @@ import java.util.List;
  * Created by gorbash on 09.07.15.
  */
 public class GCExample {
+
+    public static final int TEN_SECONDS = 10000;
+
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Waiting for visualVM");
-        Thread.sleep(10000);
+        Thread.sleep(TEN_SECONDS);
         System.out.println("starting allocation...");
-        perf();
+        perfTest();
     }
 
-    private static void perf() throws InterruptedException {
+    private static void perfTest() throws InterruptedException {
         List<Long> list = new LinkedList<Long>();
         Long result =  new Long(0);
         for (long i = 0; ; i++) {
