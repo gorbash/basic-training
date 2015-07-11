@@ -24,7 +24,7 @@ public class GCExample {
             Long nLong = new Long(i);
             result += nLong;
 
-            list.add(nLong);
+//            list.add(nLong);
 
             if (i%100000 == 0) {
                 System.out.println(i);
