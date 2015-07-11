@@ -1,10 +1,10 @@
-package com.gorbash.training;
+package com.mot.training;
 
 import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by gorbash on 09.07.15.
+ * Created by mot on 09.07.15.
  */
 public class GCExample {
 
