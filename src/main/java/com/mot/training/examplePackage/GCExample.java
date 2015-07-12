@@ -1,4 +1,4 @@
-package com.mot.training;
+package com.mot.training.examplePackage;
 
 import java.util.LinkedList;
 import java.util.List;
