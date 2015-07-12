@@ -1,4 +1,4 @@
-package com.mot.training;
+package com.mot.training.examplePackage;
 
 /**
  * Created by gorbash on 11.07.15.
