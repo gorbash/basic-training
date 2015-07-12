@@ -10,11 +10,11 @@ public class MethodCalls {
 
         int v = 42;
 
-//        acceptInt(v);
-        acceptObject(obj);
+        acceptInt(v);
+//        acceptObject(obj);
 
-//        System.out.println("after " + v);
-        System.out.println("Object after " + obj);
+        System.out.println("after " + v);
+//        System.out.println("Object after " + obj);
     }
 
 
@@ -26,7 +26,8 @@ public class MethodCalls {
 
     public static void acceptObject(ExampleObject obj) {
         System.out.println("object reference accepted " + obj);
-        obj.setField(100);
+        obj = null;
+//        obj.setField(100);
         System.out.println("object reference changed " + obj);
     }
 
