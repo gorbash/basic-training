@@ -1,8 +1,6 @@
 package com.mot.training.examplePackage;
 
-/**
- * Created by gorbash on 12.07.15.
- */
+
 public class StringExample {
     public static void main(String[] args) {
         String s = "do cats eat bats?";

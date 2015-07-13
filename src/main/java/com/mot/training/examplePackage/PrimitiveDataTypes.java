@@ -1,8 +1,5 @@
 package com.mot.training.examplePackage;
 
-/**
- * Created by gorbash on 11.07.15.
- */
 public class PrimitiveDataTypes {
 
     public static void main(String[] args) {

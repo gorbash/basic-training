@@ -3,9 +3,7 @@ package com.mot.training.examplePackage;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * Created by mot on 09.07.15.
- */
+
 public class GCExample {
 
     public static final int TEN_SECONDS = 10000;
